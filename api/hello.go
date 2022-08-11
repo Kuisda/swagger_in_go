@@ -11,8 +11,8 @@ import (
 // @Acception json
 // @Produce json
 // @Router /test [get]
-
 //另apifox中的测试环境可以添加前置的端口号，如果使用/swagger的url访问则可以直接用localhost
+//要辩识上面的注释，不能有空行
 func Hello(c *gin.Context) {
 	c.JSON(200, gin.H{"message": "Hello"})
 

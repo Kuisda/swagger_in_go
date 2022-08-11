@@ -1,4 +1,13 @@
 info:
   contact: {}
-paths: {}
+paths:
+  /test:
+    get:
+      description: Say Hello
+      produces:
+      - application/json
+      responses: {}
+      summary: Say Hello
+      tags:
+      - api
 swagger: "2.0"

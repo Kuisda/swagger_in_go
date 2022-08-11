@@ -3,5 +3,19 @@
     "info": {
         "contact": {}
     },
-    "paths": {}
+    "paths": {
+        "/test": {
+            "get": {
+                "description": "Say Hello",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "api"
+                ],
+                "summary": "Say Hello",
+                "responses": {}
+            }
+        }
+    }
 }
